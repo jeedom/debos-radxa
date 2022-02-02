@@ -82,7 +82,7 @@ esac
 case $MODEL in
     debian)
         DISTRO="buster"
-        VARIANT="xfce4"
+        VARIANT="server"
         ;;
     ubuntu)
         DISTRO="focal"
