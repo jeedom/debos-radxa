@@ -18,7 +18,6 @@
 61_add_apt_sources.yaml
 62_fix_resolv_conf.yaml
 63_setup_hostname_hosts.yaml
-64_jeedom.yaml
 65_fix_uenv.yaml
 80_preinstall_tb_packages.yaml
 84_preinstall_u-boot.yaml
