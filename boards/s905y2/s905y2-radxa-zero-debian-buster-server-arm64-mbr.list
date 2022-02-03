@@ -8,12 +8,9 @@
 21_packages_devel.yaml
 21_packages_libs_debian.yaml
 21_packages_math.yaml
-21_packages_python_debian.yaml
 21_packages_sound.yaml
 21_packages_utilities.yaml
 21_packages_net.yaml
-21_packages_xfce.yaml
-21_packages_web.yaml
 22_packages_end.yaml
 30_overlays.yaml
 60_setup_user.yaml
@@ -25,3 +22,4 @@
 84_preinstall_u-boot.yaml
 85_u_boot_amlogic.yaml
 90_clean_rootfs.yaml
+100_jeedom.yaml
