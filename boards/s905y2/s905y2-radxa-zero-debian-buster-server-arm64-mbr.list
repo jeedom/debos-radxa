@@ -22,4 +22,4 @@
 84_preinstall_u-boot.yaml
 85_u_boot_amlogic.yaml
 90_clean_rootfs.yaml
-100_jeedom.yaml
+91_jeedom.yaml
