@@ -1,0 +1,3 @@
+  - action: run
+    chroot: true
+    script: scripts/setup_jeedom.sh
