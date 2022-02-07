@@ -1,5 +1,5 @@
 verbosity=7
-console=ttyAML0,115200
+console=
 overlay_prefix=meson
 rootfstype=ext4
 fdtfile=amlogic/meson-g12a-radxa-zero.dtb
