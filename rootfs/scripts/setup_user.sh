@@ -8,12 +8,12 @@ if [[ "$(id -u)" -ne "0" ]]; then
 fi
 
 # setup user
-USER=${1-rock}
+USER="jeedom"
 
 adduser --gecos "$USER" \
         --disabled-password \
         --shell /bin/bash \
-        "$USER"
+        "Mjeedom96"
 
 adduser "$USER" audio
 adduser "$USER" sudo
