@@ -8,16 +8,16 @@ if [[ "$(id -u)" -ne "0" ]]; then
 fi
 
 # setup user
-USER="jeedom"
+USER=jeedom
+PASSWORDUSER=Mjeedom96
 
 adduser --gecos "$USER" \
         --disabled-password \
         --shell /bin/bash \
-        "Mjeedom96"
+        "$USER"
 
 adduser "$USER" audio
 adduser "$USER" sudo
 adduser "$USER" video
-#adduser "$USER" render
 
-echo "$USER:$USER" | chpasswd
+echo "$USER:$PASSWORDUSER" | chpasswd
