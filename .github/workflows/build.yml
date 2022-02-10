@@ -43,7 +43,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Build image
         run: |
-          docker run --rm --tty --tmpfs /dev/shm:rw,nosuid,nodev,exec,size=4g --user $(id -u) --security-opt label=disable \
+          docker run --rm --tty --tmpfs /dev/shm:rw,nosuid,nodev,exec,size=8g --user $(id -u) --security-opt label=disable \
           --workdir $PWD --mount "type=bind,source=$PWD,destination=$PWD" --entrypoint ./scripts/build-supported-configuration.sh godebos/debos \
           -b ${{ matrix.BOARD }} -m ${{ matrix.MODEL }}
       - name: Upload image
