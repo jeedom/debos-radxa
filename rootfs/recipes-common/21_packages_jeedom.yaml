@@ -1,1 +1,1 @@
-        wget,
+        smbclient, locate, tar, telnet, wget, logrotate, fail2ban, dos2unix, ntpdate, htop, iotop, vim, iftop,
