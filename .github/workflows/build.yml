@@ -36,7 +36,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        BOARD: [rockpi-4cplus,radxa-zero]
+        BOARD: [rockpi-4b,radxa-zero]
         MODEL: [debian]
     steps:
       - name: Checkout
