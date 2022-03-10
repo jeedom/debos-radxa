@@ -27,7 +27,7 @@ cat <<-EOF > /etc/hosts
 #ff02::1 ip6-allnodes
 #ff02::2 ip6-allrouters
 EOF
-fi
+else
 cat <<-EOF > /etc/hostname
 JeedomAtlas
 EOF
@@ -41,3 +41,4 @@ cat <<-EOF > /etc/hosts
 #ff02::1 ip6-allnodes
 #ff02::2 ip6-allrouters
 EOF
+fi
