@@ -11,7 +11,7 @@ fi
 
 mkdir -p /tmp/u-boot /usr/lib/u-boot-${SUBBOARD}
 
-if [SUBBOARD = 'rockpi-4b'] then
+if ((SUBBOARD = 'rockpi-4b')); then
     cp -rv /tmp/u-boot/rockpi-4b/* /usr/lib/u-boot-rockpi-4b
 else
 dpkg -X /packages/${SUBBOARD}-*ubootimg*.deb /tmp/u-boot
