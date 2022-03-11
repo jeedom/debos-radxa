@@ -14,10 +14,10 @@ touch /etc/hosts /etc/hostname
 
 
 if ((BOARD = 'radxa-zero')); then
-    cat <<-EOF > /etc/hostname
+    cat > /etc/hostname <<EOF
     JeedomLuna
     EOF
-    cat <<-EOF > /etc/hosts
+    cat > /etc/hosts <<EOF
     127.0.0.1 localhost
     127.0.1.1 jeedomluna
     # The following lines are desirable for IPv6 capable hosts
@@ -28,10 +28,10 @@ if ((BOARD = 'radxa-zero')); then
     #ff02::2 ip6-allrouters
     EOF
 else
-    cat <<-EOF > /etc/hostname
+    cat > /etc/hostname <<EOF
     JeedomAtlas
     EOF
-    cat <<-EOF > /etc/hosts
+    cat > /etc/hosts <<EOF 
     127.0.0.1 localhost
     127.0.1.1 jeedomatlas
     # The following lines are desirable for IPv6 capable hosts
