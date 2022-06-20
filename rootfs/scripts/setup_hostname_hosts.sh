@@ -13,7 +13,7 @@ rm -rf /etc/hosts /etc/hostname
 touch /etc/hosts /etc/hostname
 
 
-if ((BOARD = 'radxa-zero')); then
+if ((BOARD == 'radxa-zero')); then
     cat <<-EOF> /etc/hostname
     JeedomLuna
 EOF
