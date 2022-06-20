@@ -1,7 +1,7 @@
 {{- $board := or .board "radxa-zero" -}}
 {{- $architecture := or .architecture "arm64" -}}
 {{- $model :=  or .model "debian" -}}
-{{- $suite := or  .suite "buster" -}}
+{{- $suite := or  .suite "bullseye" -}}
 {{- $imagesize := or .iamgesize "4000MB" -}}
 {{- $bootpartitionend := or .bootpartitionend "1081343S" -}}
 {{- $rootpartitionstart := or .rootpartitionstart "1081344S" -}}
